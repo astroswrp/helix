@@ -80,7 +80,7 @@ ix.config.Add("inventoryHeight", 4, "How many slots in a column there is in a de
 	category = "characters"
 })
 ix.config.Add("minNameLength", 4, "The minimum number of characters in a name.", nil, {
-	data = {min = 4, max = 64},
+	data = {min = 3, max = 64},
 	category = "characters"
 })
 ix.config.Add("maxNameLength", 32, "The maximum number of characters in a name.", nil, {
